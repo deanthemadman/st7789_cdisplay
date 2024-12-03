@@ -12,7 +12,7 @@ git clone https://github.com/deanthemadman/st7789_cdisplay.git
 
 Move display.service to /etc/systemd/system
 ```markdown
-sudo mv st7789_cdisplay/cdisplay.service /etc/systemd/system/display.service
+sudo mv st7789_cdisplay/cdisplay.service /etc/systemd/system/cdisplay.service
 ```
 
 Create and activate virtual environment
