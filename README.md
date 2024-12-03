@@ -2,7 +2,7 @@
 
 Sudo install required packages
 ```markdown
-sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip git
+sudo apt install libatlas-base-dev libgif-dev libjpeg-dev libpng-dev libz-dev libfreetype6-dev libopenjp2-7 libtiff5-dev libwebp-dev tcl8.6-dev tk8.6-dev python3-dev python3-venv python3-pip git
 ```
 
 Get the repository
