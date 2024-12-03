@@ -1,5 +1,10 @@
 # st7789_cdisplay
 
+Sudo install required packages
+```markdown
+sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip git
+```
+
 Get the repository
 ```markdown
 git clone https://github.com/deanthemadman/st7789_cdisplay.git
@@ -8,11 +13,6 @@ git clone https://github.com/deanthemadman/st7789_cdisplay.git
 Move display.service to /etc/systemd/system
 ```markdown
 mv display.servive /etc/systemd/system/display.servive
-```
-
-Sudo install required packages
-```markdown
-sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip git
 ```
 
 Create and activate virtual environment
