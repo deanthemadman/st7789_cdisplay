@@ -15,7 +15,7 @@ Sudo install required packages
 sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip
 ```
 
-move display.service to /etc/systemd/system
+Move display.service to /etc/systemd/system
 ```markdown
 mv display.servive /etc/systemd/system/display.servive
 ```
