@@ -15,14 +15,14 @@ Create and activate virtual environment
 python3 -m venv venv && source venv/bin/activate
 ```
 
-cd into the folder
-```markdown
-cd st7789_cdisplay
-```
-
 Move display.service to /etc/systemd/system
 ```markdown
 mv display.servive /etc/systemd/system/display.servive
+```
+
+cd into the folder
+```markdown
+cd st7789_cdisplay
 ```
 
 Install required python modules
