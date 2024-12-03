@@ -27,20 +27,20 @@ python3 -m venv venv && source venv/bin/activate
 
 Install required python modules
 ```markdown
-'pip3 install -r requirments.txt'
+pip3 install -r requirments.txt
 ```
 
 Deactivate virtual environment
 ```markdown
-'deactivate'
+deactivate
 ```
 
 Enable display.service
 ```markdown
-'sudo systemctl Enable display.servive'
+sudo systemctl Enable display.servive
 ```
 
 Start display.service
 ```markdown
-'sudo systemctl start display.service'
+sudo systemctl start display.service
 ```
