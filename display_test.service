@@ -1,0 +1,14 @@
+[Unit]
+Description=Run my script
+After=multi-user.target graphical.target
+
+[Service]
+Type=simple
+Environment="PATH=/home/dean/venv/bin:$PATH"
+ExecStart=/bin/bash -c 'python3 /home/dean/workingdir/display.py'
+User=dean
+WorkingDir=/home/dean/workingdir
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
