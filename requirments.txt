@@ -1,1 +1,5 @@
-st7789 st7789v pillow spidev
+st7789
+st7789v
+pillow
+spidev
+cython
