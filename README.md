@@ -12,7 +12,7 @@ mv display.servive /etc/systemd/system/display.servive
 
 Sudo install required packages
 ```markdown
-sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip
+sudo apt install libatlas-base-dev libgif-dev python3-venv python3-pip git
 ```
 
 Create and activate virtual environment
