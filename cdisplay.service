@@ -1,5 +1,5 @@
 [Unit]
-Description=Run my script
+Description=Runs the pytho display
 After=multi-user.target graphical.target
 
 [Service]
